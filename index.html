@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register for Full Stack Conference</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+<body>
+
+<form>
+<div class="container">
+<h1>Basic Info</h1>
+  <div class="form-control">
+      <input type="text" required>
+      <label>Name</label>
+  </div>
+
+  <div class="form-control">
+      <input type="email" required>
+      <label>Email</label>
+  </div>
+
+  <div class="form-control select">
+    <label>Job Role</label>
+    <select id="title" name="user-title">
+      <option hidden></option>
+      <option value="full-stack js developer">Full Stack JavaScript Developer</option>
+      <option value="front-end developer">Front End Developer</option>
+      <option value="back-end developer">Back End Developer</option>
+      <option value="designer">Designer</option>          
+      <option value="student">Student</option>
+      <option value="other">Other</option>  
+    </select>
+  </div>
+
+
+
+
+
+  <!-- <div class="custom-select-wrapper">
+    <div class="custom-select">
+        <div class="custom-select__trigger"><span>Tesla</span>
+            <div class="arrow"></div>
+        </div>
+        <div class="custom-options">
+            <span class="custom-option selected" data-value="tesla">Tesla</span>
+            <span class="custom-option" data-value="volvo">Volvo</span>
+            <span class="custom-option" data-value="mercedes">Mercedes</span>
+        </div>
+    </div>
+</div> -->
+  
+
+</div>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
